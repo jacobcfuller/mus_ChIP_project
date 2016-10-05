@@ -1,0 +1,115 @@
+======================================================================
+SISSRs: A tool to identify binding sites from ChIP-Seq data
+======================================================================
+SISSRs version 1.4 (Release date: Mon, 24 November 2008)
+
+For further information on how to interpret these results or to get
+a recent version of the SISSRs software, please visit
+http://sissrs.rajajothi.com
+======================================================================
+
+
+======================================================================
+REFERENCE
+======================================================================
+If you use this program in your research, please cite:
+
+Raja Jothi, Suresh Cuddapah, Artem Barski, Kairong Cui, Keji Zhao
+Genome-wide identification of in vivo protein-DNA binding sites
+from ChIP-Seq Data. Nucleic Acids Research, 36(16):5221-31 (2008)
+======================================================================
+
+
+======================================================================
+COMMAND LINE SUMMARY & ESTIMATED PARAMETERS
+======================================================================
+Data file (i)                           : B6_Y_Dq.bed
+Number of tags in the data file         : 595774
+Number of tags selected for analysis    : 210301 (35.30%)
+Tags mapped to sense strand             : 105183 (50.02%)
+Tags mapped to anti-sense strand        : 105118 (49.98%)
+Background model (Negative Control)     : B6_Y_Diq.bed
+Number of tags in the control file      : 533827
+Genome length (s)                       : 2700000000
+Fraction of genome mappable by reads (m): 0.80
+Effective Genome length  (s*m)          : 2160000000
+E-value (e)                             : 10
+P-value (p)                             : 0.01
+Scanning window size (w)                : 20
+Average DNA fragment length (f)         : 1000
+Minimum number of 'directional' tags
+  required on each side of the inferred
+  binding site (E)                      : 10
+Keep one tag per genomic position (a)   : YES
+Also reports binding sites supported
+  only by reads mapped to either sense
+  or anti-sense strand (u)              : NO
+======================================================================
+
+
+======================================================================
+BINDING SITES
+======================================================================
+Tags necessary to identify binding sites: 20 (Fold >= 2.00)
+(at least E=10 tags on each side)
+
+Chr	cStart	cEnd	NumTags	Fold	p-value
+---	------	----	-------	----	-------
+mouseY	35171	35831	49	2.59	7.0e-03
+mouseY	494571	508791	454	2.47	7.5e-03
+mouseY	521171	538211	161	2.19	7.6e-03
+mouseY	551931	551971	98	2.02	7.7e-03
+mouseY	562431	566811	492	39.50	4.5e-05
+mouseY	648651	651871	139	5.71	9.8e-04
+mouseY	860111	861691	110	2.47	7.5e-03
+mouseY	874291	894371	215	29.19	7.0e-05
+mouseY	896671	901631	194	4.28	1.6e-03
+mouseY	906151	909371	439	31.93	5.8e-05
+mouseY	912171	918211	146	3.19	3.0e-03
+mouseY	925531	931171	272	10.37	3.7e-04
+mouseY	972911	974731	191	3.44	3.0e-03
+mouseY	1029191	1033771	163	2.02	7.7e-03
+mouseY	1037911	1049511	647	11.17	3.0e-04
+mouseY	1099371	1099811	31	4.01	1.6e-03
+mouseY	1586671	1588191	26	2.01	7.7e-03
+mouseY	1753631	1757831	114	2.05	7.7e-03
+mouseY	1812171	1817011	110	6.07	7.4e-04
+mouseY	2113171	2129531	237	2.67	7.0e-03
+mouseY	2158451	2160211	39	2.15	7.7e-03
+mouseY	2213851	2213911	31	2.25	7.6e-03
+mouseY	3443511	3457571	149	2.41	7.5e-03
+mouseY	4086311	4086751	29	9.20	4.5e-04
+mouseY	4298531	4298571	33	2.20	7.6e-03
+mouseY	5679311	5680491	36	17.13	1.4e-04
+mouseY	9003931	9003971	21	2.96	6.9e-03
+mouseY	9035811	9035871	23	2.25	7.6e-03
+mouseY	9798871	9799791	51	11.28	3.0e-04
+mouseY	12015231	12015311	25	3.97	2.8e-03
+mouseY	15792211	15792411	75	38.08	4.6e-05
+mouseY	16692771	16692811	24	3.58	2.9e-03
+mouseY	19741231	19741291	22	2.15	7.7e-03
+mouseY	19871251	19871291	31	3.28	3.0e-03
+mouseY	21231231	21231271	27	22.85	9.2e-05
+mouseY	32788611	32788651	24	2.90	6.9e-03
+mouseY	38240671	38240711	20	2.12	7.7e-03
+mouseY	40268431	40268891	64	10.83	3.6e-04
+mouseY	57544251	57551411	184	2.65	7.0e-03
+mouseY	59003171	59003211	22	27.92	7.4e-05
+mouseY	73694971	73695011	20	2.03	7.7e-03
+mouseY	80184811	80184851	24	2.03	7.7e-03
+mouseY	89396331	89396691	35	18.40	1.2e-04
+mouseY	89404691	89408951	112	269.07	0.0e+00
+mouseY	89411771	89422371	143	16.82	1.5e-04
+mouseY	89426891	89432751	379	415.03	0.0e+00
+mouseY	89434511	89434551	50	126.92	6.0e-06
+mouseY	89448271	89453751	946	32.85	5.2e-05
+mouseY	89463531	89463931	30	10.15	3.7e-04
+mouseY	89471571	89474171	403	40.49	4.3e-05
+mouseY	89475151	89475271	28	71.08	2.4e-05
+mouseY	89478971	89496431	285	13.21	2.3e-04
+mouseY	89497471	89498091	59	2.12	7.7e-03
+mouseY	89500371	89500411	45	8.79	5.2e-04
+mouseY	89513211	89514731	69	139.61	1.0e-06
+mouseY	89516651	89517811	150	88.21	1.4e-05
+mouseY	89519391	89519431	54	27.41	7.4e-05
+======================================================================
